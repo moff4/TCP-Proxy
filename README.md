@@ -13,4 +13,4 @@ Run on server:
 `$ ./proxy.py -H=ya.ru -P=443`  
 
 Run on client:  
-`$ curl https://ya.ru -H 'Host: ya.ru' -k`  
+`$ curl https://myproxyserver:8888 -H 'Host: ya.ru' -k`  
